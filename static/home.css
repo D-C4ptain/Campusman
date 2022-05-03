@@ -4,10 +4,11 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
-  
+    background-attachment: fixed;  
 
 }
+
+/* the notice board section */
 .content{
     display: flex;
     justify-items: flex-start;
@@ -23,6 +24,7 @@ body{
     padding: 10px;
     margin: 20px;
 }
+
 .left ul li a{
     padding: 5px;
     list-style: none;
@@ -41,6 +43,7 @@ body{
     padding: 10px;
     text-align: center;
 }
+
 .right{
     flex-basis: 30%;
     padding: 10px;
@@ -56,6 +59,8 @@ body{
     text-decoration: none;
 }
 
+/*  alumni section */
+
 .alumni{
     background-color: transparent;
     color: white;
@@ -64,6 +69,7 @@ body{
     margin-bottom: 30px;
     border-top: 2px solid red ;
 }
+
 .comments{
     display: flex;
     justify-content: space-around;   
@@ -99,6 +105,18 @@ small{
     padding-top: 20px;
 }
 
+
+@media screen and (max-width:768px) {
+    .content{
+        display: block;
+    }
+    .left, .right{
+        padding: 2px;
+        margin: 30px;
+    }
+
+    
+}
 
 
 /* Contact Section */
