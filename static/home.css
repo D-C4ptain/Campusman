@@ -45,24 +45,24 @@ body{
     flex-basis: 30%;
     padding: 10px;
     margin: 20px;
+    background-color: rgba(255, 255, 255, 0.851);
 
 }
 
 .right ul li a{
     padding: 5px;
     list-style: none;
-    color: white;
+    color: black;
     text-decoration: none;
-
 }
 
-
 .alumni{
-    background-color: rgba(0, 0, 0, 0.844);
+    background-color: transparent;
     color: white;
-    padding: 60px;
+    padding: 10px;
     margin-top: 20px;
-    margin-top: 20px;
+    margin-bottom: 30px;
+    border-top: 2px solid red ;
 }
 .comments{
     display: flex;
@@ -72,17 +72,20 @@ body{
 
 .alumni h3{
     text-align: center;
+    color: white;
+    font-size: 42px;
+    
 }
 
 .comments .lef{
     flex-basis: 40%;
-    background-color: rgba(0, 0, 0, 0.66);
+    background-color: rgba(0, 0, 0, 0.86);
     padding: 50px;
 }
 
 .comments .rig{
     flex-basis: 40%;
-    background-color: rgba(0, 0, 0, 0.555);
+    background-color: rgba(0, 0, 0, 0.794);
     padding: 50px;
     
 }
