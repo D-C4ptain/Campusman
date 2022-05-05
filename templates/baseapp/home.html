@@ -2,6 +2,7 @@
 
 {% block content %}
 
+<!-- Notice board -->
    <div style="top: 0px;" class="site">
     <div class="content">
         <div class="left">
@@ -41,36 +42,51 @@
 
     </div>
 
-    <div class="alumni">
-    <h3> University Alumni </h3> 
-    <div class="comments"> 
-        <div class="lef">
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, perferendis? Ipsam porro fugit ex cumque eius facilis,
-                ducimus a fuga, assumenda, aliquam unde! Beatae ex laudantium tempore quos nihil nobis dolorum modi vel.
-                Illo quia eveniet enim modi exercitationem alias animi velit? Explicabo rem libero aliquid odit ipsam officia est.
+<!-- End of Notice board -->
 
-                <br> <br> 
 
-                <small>Morvin Ian (2017) </small>
-            </p>
-
-        </div>
-        <div class="rig">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, perferendis? Ipsam porro fugit ex cumque eius facilis,
-                ducimus a fuga, assumenda, aliquam unde! Beatae ex laudantium tempore quos nihil nobis dolorum modi vel.
-                Illo quia eveniet enim modi exercitationem alias animi velit? Explicabo rem libero aliquid odit ipsam officia est.
-
-                <br> <br>
-
-                <small>Esther Muchiri (2015) </small>
-            </p>
-
-        </div>
-      
-    </div>
-
-    </div>
-   </div>
+<!-- corousel -->
+<div style="background-color: aliceblue;" class="container">
+	<div class="row">
+		<div class="col-md-8 col-center">
+			<h2>University Alumni</h2>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Carousel indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>   
+				<!-- Wrapper for carousel items -->
+				<div class="carousel-inner">
+					<div class="item active">
+						<div class="img-box"><img src="https://images.unsplash.com/photo-1554844453-7ea2a562a6c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" alt=""></div>
+						<p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+						<p class="overview"><b>Morvin Ian (2015)</b>, Software Engineer </p>
+					</div>
+					<div class="item">
+						<div class="img-box"><img src="https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGhvdG98ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt=""></div>
+						<p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+						<p class="overview"><b>Derrik Chasimba (2016)</b>, Web and Android Developer</p>
+					</div>
+					<div class="item">
+						<div class="img-box"><img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" alt=""></div>
+						<p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
+						<p class="overview"><b>Captain Kenya (2012)</b>, Cybersecurity Expert</p>
+					</div>
+				</div>
+				<!-- Carousel controls -->
+				<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+					<i class="fa fa-angle-left"></i>
+				</a>
+				<a class="carousel-control right" href="#myCarousel" data-slide="next">
+					<i class="fa fa-angle-right"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+  
 
 
    <!--Contact Section-->
