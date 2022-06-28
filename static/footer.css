@@ -131,7 +131,6 @@ p, ul li, ol li {
 }
 .kilimanjaro_works > a {
     display: inline-block;
-    float: left;
     position: relative;
     width: 33.33333333%;
     z-index: 1;
