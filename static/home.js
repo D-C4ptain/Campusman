@@ -1,3 +1,5 @@
+//Start Alumin coursel
+
 $(document).ready(function()
 {
         if($('.bbb_slider').length)
@@ -44,5 +46,4 @@ $(document).ready(function()
         }
 
     });
-
 
