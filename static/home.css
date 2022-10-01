@@ -122,6 +122,12 @@ body{
 }
 .contact{
 	text-align: center;
+    padding-left: 80px;
+}
+
+.contact p{
+    text-align: center;
+    margin-left: 30px;
 }
 
 .contact-box{
@@ -137,6 +143,7 @@ body{
 .contact i {
     font-size: 25px;
     color: #f65728;
+    align-items: center;
 }
 
 .form-box-inner {
