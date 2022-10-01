@@ -255,7 +255,7 @@ width: device-width;
     display: inline-block;
 	color: rgba(0, 0, 0);
     
-   
+
 }
 .carousel .carousel-indicators {
 	bottom: -40px;
@@ -294,3 +294,24 @@ width: device-width;
 .container {
     padding: 2px 16px;
 }
+
+.card {
+    border: 1px solid black;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px
+
+}
+
+.img2{
+    float: right;
+}
+
+.card-body{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
