@@ -1,5 +1,5 @@
 
 
-https://www.digitaldesignjournal.com/best-circular-progress-bar-html-css/
-
+counter
+https://www.tutorialspoint.com/creating-animated-counter-using-html-css-and-javascript
 
