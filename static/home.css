@@ -1,11 +1,9 @@
 body{
-
     background: url("https://wallpapercave.com/wp/wp2468660.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;  
-
 }
 
 /* the notice board section */
@@ -134,13 +132,15 @@ body{
     color: floralwhite;
 }
 .contact{
-	text-align:center;
+	text-align: center;
 }
+
 .contact-box{
 	 background: #ffffff8a;
 	 height: 365px;
 	 padding:15px;
 }
+
 .contact-box ul li{
 	margin-bottom:0px;
 	padding:8px;
