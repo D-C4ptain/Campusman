@@ -1,7 +1,5 @@
 $(document).ready(function()
 {
-
-   
         if($('.bbb_slider').length)
         {
             var trendsSlider = $('.bbb_slider');
@@ -44,6 +42,7 @@ $(document).ready(function()
                 });
             }
         }
-    
 
     });
+
+
