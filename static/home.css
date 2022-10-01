@@ -1,4 +1,4 @@
-body{
+.content{
     background: url("https://wallpapercave.com/wp/wp2468660.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -240,11 +240,11 @@ width: device-width;
 	color: #7AA641;
 }
 .carousel .carousel-control {
-	width: 40px;
-    height: 40px;
     margin-top: -70px;
-    top: 50%;
+    top: 35%;
+    right: 5%;
 	background: none;
+
 }
 .carousel-control i {
     font-size: 35px;
