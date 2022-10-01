@@ -156,6 +156,10 @@ body{
     background: #ffffff8a;
     padding: 15px;
 }
+
+.fa{
+    padding-left: 59px;
+}
 /* mobile responsive */
 @media (max-width: 598px) {
     .form-section {
