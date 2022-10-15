@@ -1,3 +1,11 @@
 
 https://github.com/Collabodevs/Campusman
 
+Admission
+both online and by School(get kuccps data)
+    - online application form
+    - downloadable
+    - adm no
+renew continuing(sem) Upgrade
+fee structure
+
