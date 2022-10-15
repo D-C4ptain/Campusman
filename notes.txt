@@ -1,7 +1,22 @@
 
+https://github.com/Collabodevs/Campusman
 
-counter
-https://www.tutorialspoint.com/creating-animated-counter-using-html-css-and-javascript
+
+// Admission
+both online and by School(get kuccps data)
+    - online application form
+    - downloadable
+    - adm no
+renew continuing(sem) Upgrade
+fee structure
+
+
+// Portal (Ian)
+Programs/Courses
+Students -> personal info, fees statement, grades, notices, .
+ICT 
+Finance
+
 
 
 
