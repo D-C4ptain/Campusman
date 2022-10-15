@@ -41,14 +41,13 @@ INSTALLED_APPS = [
     
     'baseapp.apps.BaseappConfig',
     'portal.apps.PortalConfig',
-<<<<<<< HEAD
+
     'e_learning.apps.ELearningConfig',
     
     
-=======
-    'admission.apps.AdmissionConfig'
->>>>>>> df5ac834cf2cfbe41434a0bde7aca808256babf3
+    'admission.apps.AdmissionConfig',
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

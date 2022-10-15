@@ -22,10 +22,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('baseapp.urls')),
     path('portal/', include('portal.urls')),
-<<<<<<< HEAD
     path('e_learning/', include('e_learning.urls')),
-=======
     path('admission_procedure/', include('admission.urls'))
->>>>>>> df5ac834cf2cfbe41434a0bde7aca808256babf3
+
 ]
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) 
