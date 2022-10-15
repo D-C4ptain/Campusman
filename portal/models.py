@@ -1,5 +1,5 @@
 from django.db import models
-from baseapp.data import Faculty_choices
+from baseapp.data import Faculty_choices, Actual_programs
 
 
 class StudentDetails(models.Model):
@@ -11,12 +11,20 @@ class StudentDetails(models.Model):
     faculty = models.CharField(choices=Faculty_choices, max_length=200)
 
     class Meta:
-        verbose_name_plural = "StudentDetails"
+        verbose_name_plural = "Student Details"
 
 
     def __str__(self):
         return f"{self.first_name} {self.last_name}"
 
+class SchoolPrograms(models.Model):
+    name = models.CharField(choices=Actual_programs, max_length=200)
+
+    def __str__(self) -> str:
+       return self.name
+
+    class Meta:
+        verbose_name_plural = "School Programs"
 
 
     
