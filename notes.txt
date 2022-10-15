@@ -3,3 +3,8 @@
 counter
 https://www.tutorialspoint.com/creating-animated-counter-using-html-css-and-javascript
 
+
+
+KEY FEATURE OF AN E-LEARNING PORTAL
+Learning Content Management:
+    Support of multiple content types
