@@ -1,5 +1,3 @@
 
-
-counter
-https://www.tutorialspoint.com/creating-animated-counter-using-html-css-and-javascript
+https://github.com/Collabodevs/Campusman
 
