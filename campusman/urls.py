@@ -24,6 +24,4 @@ urlpatterns = [
     path('portal/', include('portal.urls')),
     path('admission_procedure/', include('admission.urls'))
 ]
-
-if settings.DEBUG:
-    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) 
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) 
