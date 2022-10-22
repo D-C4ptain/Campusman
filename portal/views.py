@@ -1,3 +1,4 @@
+from re import template
 from tkinter import S
 from django.shortcuts import render
 from django.views.generic import ListView, DetailView, TemplateView
@@ -9,4 +10,5 @@ class StudentLogin(TemplateView):
     
 class StudentIndexView(DetailView):
     model = StudentDetails
+    context_object_name = 'student'
   
