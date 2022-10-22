@@ -1,0 +1,41 @@
+{% extends 'baseapp/base.html' %}
+
+{% block content %}
+<style>
+    body{
+        font-size: medium; 
+        
+        }
+</style>
+<h3 class="display-6 m-3 font-weight-bold">{{student.first_name}} {{student.last_name}} ({{student.faculty}})</h3> 
+<div class="container-fluid">
+    <div class="profile">
+        <h5 class="lead font-weight-bold">Profile</h5>
+        <ul class="ms-5">
+            <li>{{student.course}}</li>
+            <li>{{student.email}}</li>
+            <li>{{student.phone}}</li>
+        </ul>
+
+    </div>
+    <div class="notices">
+        <h5 class="lead font-weight-bold" >Notice</h5>
+        <ul class="ms-5">
+            <li>Reopening of School</li>
+            <li>The 4th Hackerthon Competition</li>
+            <li>Music Preparation</li>
+            <li>Internship Programs </li>
+            <li>Graduation Ceremony</li>
+        </ul>      
+    </div>
+
+    <div class="fees">
+        <h5>Fees</h5>
+    </div>
+    <div class="results">
+        <h5>Results</h5>
+    </div>
+
+</div>
+
+{% endblock content %}

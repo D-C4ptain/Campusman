@@ -1,7 +1,7 @@
 {% extends "baseapp/base.html" %}
 
 {% block content %}
-
+{% include "baseapp/navbar.html" %}
 <!-- Notice board -->
 
   <div style="top: 0px;" class="site">
@@ -215,7 +215,8 @@
     </div>
   </section>
 <!--end contact section-->
-  
+
+{% include "baseapp/footer.html" %}
 {% endblock content %}
 
 
