@@ -1,9 +1,10 @@
 {% extends "baseapp/base.html" %}
+
 {% load static %}
 
 {% block content %}
-<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"> -->
+{% include "baseapp/navbar.html" %}
+
 <div class="container">
     <!-- <h1>Welcome to Admissions Centre</h1>
 
@@ -56,5 +57,5 @@
     
 </div>
 
-
+{% include "baseapp/footer.html" %}
 {% endblock content %}
