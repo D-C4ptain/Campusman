@@ -18,3 +18,8 @@ ICT
 Finance
 
 
+
+
+KEY FEATURE OF AN E-LEARNING PORTAL
+Learning Content Management:
+    Support of multiple content types

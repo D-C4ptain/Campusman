@@ -41,8 +41,13 @@ INSTALLED_APPS = [
     
     'baseapp.apps.BaseappConfig',
     'portal.apps.PortalConfig',
-    'admission.apps.AdmissionConfig'
+
+    'e_learning.apps.ELearningConfig',
+    
+    
+    'admission.apps.AdmissionConfig',
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

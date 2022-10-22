@@ -11,7 +11,7 @@ courses = [
 
             ("School of Space Science",
              (
-                (1, "BSc in Physics with Astro-Physics"),
+                ("1", "BSc in Physics with Astro-Physics"),
                 (2, "BS in Astrobiology"),
                 (3, "Bachelor of Science in Astronomy and Astrophysics"),
                 (4, "BSc (Hons) in Physics and Astrophysics"),
@@ -23,7 +23,7 @@ courses = [
 
             ("School of Engineering",
              (
-                (1, "BSc in Electrical engineering"),
+                ("1", "BSc in Electrical engineering"),
                 (2, "BSc in Civil Engineering"),
                 (3, "Bsc Chemical Engineering"),
                 (4, "BSc in Environmental engineering"),
@@ -35,7 +35,7 @@ courses = [
 
              ("School of Infocoms",
              (
-                (1, "BSc in Information technology"),
+                ("1", "BSc in Information technology"),
                 (2, "BSc in IT and Media Studies"),
                 (3, "Bsc Chemical Engineering"),
                 (4, "BSc in Environmental engineering"),
@@ -47,7 +47,7 @@ courses = [
 
             ("School of Art", 
             (
-                (1, "Bachelor of Arts (Kiswahili)"),
+                ("1", "Bachelor of Arts (Kiswahili)"),
                 (2, "Bachelor of Arts (English)"),
                 (3, "Bachelor of Arts (German)"),
                 (4, "Bachelor of Arts (French)"),
@@ -56,7 +56,7 @@ courses = [
 
             ("School of Business", 
             (
-                (1, "Bachelor of Accounting and Finance"),
+                ("1", "Bachelor of Accounting and Finance"),
                 (2, "Bachelor of Business Administration and Entreprenuership"),
                 (3, "Bachelor of Management Science and Technology)"),
                 (4, "Bachelor of Economics And Resource Management"),
