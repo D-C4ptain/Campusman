@@ -4,11 +4,20 @@ https://github.com/Collabodevs/Campusman
 
 // Admission
 both online and by School(get kuccps data)
-    - online application form
+    - online application form(   Application Policy
+        In this portal, you will be required to have the following ready:Scanned into pdf:
+        Identification Document (National ID, Passport or Birth Certificate)
+        KCSE and other academic Certificates
+        Passport Photo
+        Money in M-PESA
+        MBA - KES. 2,000
+        Degree, Diploma, Certificate - KES.1,000
+        Step 1: Applicant's Details   Step 2: Program Details   Step 3: Attachments   Step 4: Payments   Step 5: Referree)
     - downloadable
     - adm no
 renew continuing(sem) Upgrade
 fee structure
+
 
 
 // Portal (Ian)

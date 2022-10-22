@@ -9,8 +9,6 @@ body{
 /* the notice board section */
 .content{
     display: flex;
-
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .left{

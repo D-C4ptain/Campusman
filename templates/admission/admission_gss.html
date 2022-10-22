@@ -1,0 +1,55 @@
+{% extends "baseapp/base.html" %}
+{% load static %}
+
+{% block content %}
+{% include "baseapp/navbar.html" %}
+
+<link rel="stylesheet" href="{% static 'gss.css' %}">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
+<div class="container">
+  <div class="row">
+      <h2>Government Sponsored Students<br>(GSS - KUCCPS)</h2>
+
+        <body>
+          <div class="testbox">
+            <form action="/">
+              <div class="banner">
+                <h1>KUCCPS Confirmation Form</h1>
+              </div>
+              <p>Student Information</p>
+              <div class="item">
+                <label for="name">Full Name<span>*</span></label>
+                <input id="name" type="text" name="name" required/>
+              </div>
+              <div class="item">
+                <label for="index">KCSE Index Number<span>*</span></label>
+                <input id="index" type="number" name="index" placeholder="Example: 10101010101/2021" required/>
+              </div>
+              <div class="item">
+                <label for="school">Former School Name<span>*</span></label>
+                <input id="school" type="text" name="school" required/>
+              </div>
+              <div class="item">
+                <label for="email">Your Email Address<span>*</span></label>
+                <input id="email" type="email" name="email" required/>
+              </div>
+              <div class="item">
+                <label for="phone">Your Phone<span>*</span></label>
+                <input id="phone" type="number" name="phone" required/>
+              </div>
+              <div class="btn-block">
+                <button type="submit" href="/">SUBMIT</button>
+              </div>
+            </form>
+          </div>
+        </body>
+
+  </div>
+    
+    
+</div>
+
+{% include "baseapp/footer.html" %}
+{% endblock content %}

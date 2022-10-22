@@ -1,0 +1,38 @@
+{% extends "baseapp/base.html" %}
+{% load static %}
+
+{% block content %}
+{% include "baseapp/navbar.html" %}
+
+<div class="container">
+ 
+<div class="row">
+<!--   -->
+    <div class="col-md-12">
+      <h2>Private Sponsored Students<br>(PSS)</h2>
+    <div class="jumbotron bg-cover" style="background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url(https://placeimg.com/1000/480/nature)">
+      <!-- <div class="container"> -->
+      <h1 class="display-4">Application Requirements</h1>
+      <p class="lead">
+        You are required to scan the following documents to pdf format:
+        <br>&nbsp;&nbsp;&nbsp;&nbsp; - Identification Document (National ID, Passport or Birth Certificate)
+        <br>&nbsp;&nbsp;&nbsp;&nbsp; - KCSE and other academic Certificates
+        <br>&nbsp;&nbsp;&nbsp;&nbsp; - Standard Size Passport Photo
+      </p>
+      <hr class="my-4">
+      <p>Make Application Fee(Non-Refundable) through MPesa/Bank
+      <br>&nbsp;&nbsp;&nbsp;&nbsp; - MBA - KES. 2,000
+      <br>&nbsp;&nbsp;&nbsp;&nbsp; - Degree, Diploma, Certificate - KES.1,000</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Proceed to Application</a>
+        <!-- </div> -->
+    <!-- /.container   -->
+    </div>
+    </div> 
+
+  </div>
+    
+    
+</div>
+
+{% include "baseapp/footer.html" %}
+{% endblock content %}
